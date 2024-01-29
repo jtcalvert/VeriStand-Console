@@ -1,0 +1,1 @@
+VeriStand Console Viewer - This tool allows a VeriStand user to remotely view the console output from the VeriStand Engine running on an NI Linux Real-time target. Often users have targets running headlessly without a monitor attached, and being able to view the console output can assist troubleshooting and verification efforts.
