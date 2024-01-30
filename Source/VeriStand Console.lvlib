@@ -8,22 +8,29 @@
 
 </Property>
 	<Item Name="Messaging" Type="Folder">
-		<Item Name="Dequeue Message.vi" Type="VI" URL="../Dequeue Message.vi"/>
-		<Item Name="Enqueue Message.vi" Type="VI" URL="../Enqueue Message.vi"/>
-		<Item Name="Priority Enqueue Message.vi" Type="VI" URL="../Priority Enqueue Message.vi"/>
+		<Item Name="Dequeue Message.vi" Type="VI" URL="../Messaging VIs/Dequeue Message.vi"/>
+		<Item Name="Enqueue Message.vi" Type="VI" URL="../Messaging VIs/Enqueue Message.vi"/>
+		<Item Name="Priority Enqueue Message.vi" Type="VI" URL="../Messaging VIs/Priority Enqueue Message.vi"/>
+	</Item>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Cache Host Key.vi" Type="VI" URL="../SubVIs/Cache Host Key.vi"/>
+		<Item Name="Check For New File.vi" Type="VI" URL="../SubVIs/Check For New File.vi"/>
+		<Item Name="Configure UI Dialog.vi" Type="VI" URL="../SubVIs/Configure UI Dialog.vi"/>
+		<Item Name="Read UI config file.vi" Type="VI" URL="../Read UI config file.vi"/>
+		<Item Name="Validate file name.vi" Type="VI" URL="../SubVIs/Validate file name.vi"/>
+		<Item Name="Write UI config file.vi" Type="VI" URL="../SubVIs/Write UI config file.vi"/>
+	</Item>
+	<Item Name="Support" Type="Folder">
+		<Item Name="VeriStand Console Viewer.ini" Type="Document" URL="../VeriStand Console Viewer.ini"/>
+		<Item Name="Veristand_icon_vista.ico" Type="Document" URL="../Veristand_icon_vista.ico"/>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
-		<Item Name="Console display.ctl" Type="VI" URL="../Console display.ctl"/>
-		<Item Name="Login Info.ctl" Type="VI" URL="../Login Info.ctl"/>
-		<Item Name="Message Queue.ctl" Type="VI" URL="../Message Queue.ctl"/>
-		<Item Name="Message.ctl" Type="VI" URL="../Message.ctl"/>
-		<Item Name="SM Data.ctl" Type="VI" URL="../SM Data.ctl"/>
-		<Item Name="States.ctl" Type="VI" URL="../States.ctl"/>
-	</Item>
-	<Item Name="VIs" Type="Folder">
-		<Item Name="Cache Host Key.vi" Type="VI" URL="../Cache Host Key.vi"/>
-		<Item Name="Check For New File.vi" Type="VI" URL="../Check For New File.vi"/>
-		<Item Name="Configure UI Dialog.vi" Type="VI" URL="../Configure UI Dialog.vi"/>
+		<Item Name="Console display.ctl" Type="VI" URL="../TypeDefs/Console display.ctl"/>
+		<Item Name="Login Info.ctl" Type="VI" URL="../TypeDefs/Login Info.ctl"/>
+		<Item Name="Message Queue.ctl" Type="VI" URL="../TypeDefs/Message Queue.ctl"/>
+		<Item Name="Message.ctl" Type="VI" URL="../TypeDefs/Message.ctl"/>
+		<Item Name="SM Data.ctl" Type="VI" URL="../TypeDefs/SM Data.ctl"/>
+		<Item Name="UI Settings.ctl" Type="VI" URL="../TypeDefs/UI Settings.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
