@@ -20,7 +20,10 @@
 		<Item Name="SM Data.ctl" Type="VI" URL="../SM Data.ctl"/>
 		<Item Name="States.ctl" Type="VI" URL="../States.ctl"/>
 	</Item>
-	<Item Name="VIs" Type="Folder"/>
-	<Item Name="Cache Host Key.vi" Type="VI" URL="../Cache Host Key.vi"/>
+	<Item Name="VIs" Type="Folder">
+		<Item Name="Cache Host Key.vi" Type="VI" URL="../Cache Host Key.vi"/>
+		<Item Name="Check For New File.vi" Type="VI" URL="../Check For New File.vi"/>
+		<Item Name="Configure UI Dialog.vi" Type="VI" URL="../Configure UI Dialog.vi"/>
+	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 </Library>
