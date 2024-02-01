@@ -17,6 +17,7 @@
 		<Item Name="Check For New File.vi" Type="VI" URL="../SubVIs/Check For New File.vi"/>
 		<Item Name="Configure UI Dialog.vi" Type="VI" URL="../SubVIs/Configure UI Dialog.vi"/>
 		<Item Name="Read UI config file.vi" Type="VI" URL="../Read UI config file.vi"/>
+		<Item Name="Save Log File.vi" Type="VI" URL="../SubVIs/Save Log File.vi"/>
 		<Item Name="Validate file name.vi" Type="VI" URL="../SubVIs/Validate file name.vi"/>
 		<Item Name="Write UI config file.vi" Type="VI" URL="../SubVIs/Write UI config file.vi"/>
 	</Item>
